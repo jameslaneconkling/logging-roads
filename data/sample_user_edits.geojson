@@ -1,0 +1,1795 @@
+{
+  "type": "FeatureCollection",
+  "generator": "overpass-turbo",
+  "copyright": "The data included in this document is from www.openstreetmap.org. The data is made available under ODbL.",
+  "timestamp": "2015-10-19T22:18:03Z",
+  "features": [
+    {
+      "type": "Feature",
+      "id": "way/48546126",
+      "properties": {
+        "@id": "way/48546126",
+        "access": "forestry",
+        "highway": "track",
+        "source": "WRI;DIAF;Africover",
+        "start_date": "before 2000",
+        "@timestamp": "2015-05-05T20:49:58Z",
+        "@version": 4,
+        "@changeset": 30823051,
+        "@user": "Leo B",
+        "@uid": 2069339
+      },
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            22.6319649,
+            2.5810766
+          ],
+          [
+            22.5964316,
+            2.5805621
+          ],
+          [
+            22.5788243,
+            2.5794434
+          ],
+          [
+            22.5511124,
+            2.5790187
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "way/48546127",
+      "properties": {
+        "@id": "way/48546127",
+        "access": "forestry",
+        "highway": "track",
+        "source": "WRI;DIAF;Africover",
+        "start_date": "before 2000",
+        "@timestamp": "2015-06-24T16:40:47Z",
+        "@version": 4,
+        "@changeset": 32187519,
+        "@user": "BKessler_GFW_import",
+        "@uid": 2729046
+      },
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            22.59626,
+            2.5982252
+          ],
+          [
+            22.6309349,
+            2.5987396
+          ],
+          [
+            22.6455472,
+            2.5989505
+          ],
+          [
+            22.6710587,
+            2.6061889
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "way/48546128",
+      "properties": {
+        "@id": "way/48546128",
+        "access": "forestry",
+        "highway": "track",
+        "source": "WRI;DIAF;Africover",
+        "start_date": "before 2000",
+        "@timestamp": "2015-05-05T20:49:58Z",
+        "@version": 3,
+        "@changeset": 30823051,
+        "@user": "Leo B",
+        "@uid": 2069339
+      },
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            22.5811908,
+            2.5977765
+          ],
+          [
+            22.5705142,
+            2.5975309
+          ],
+          [
+            22.5336029,
+            2.5966818
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "way/48546129",
+      "properties": {
+        "@id": "way/48546129",
+        "access": "forestry",
+        "highway": "track",
+        "source": "WRI;DIAF;Africover",
+        "start_date": "before 2000",
+        "@timestamp": "2015-05-05T20:49:58Z",
+        "@version": 3,
+        "@changeset": 30823051,
+        "@user": "Leo B",
+        "@uid": 2069339
+      },
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            22.5705142,
+            2.5975309
+          ],
+          [
+            22.5703384,
+            2.6038842
+          ],
+          [
+            22.5703384,
+            2.615888
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "way/48546130",
+      "properties": {
+        "@id": "way/48546130",
+        "access": "forestry",
+        "highway": "track",
+        "source": "WRI;DIAF",
+        "start_date": "before 2000",
+        "@timestamp": "2015-05-05T20:49:58Z",
+        "@version": 3,
+        "@changeset": 30823051,
+        "@user": "Leo B",
+        "@uid": 2069339
+      },
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            22.5974616,
+            2.5390615
+          ],
+          [
+            22.5520173,
+            2.537824
+          ],
+          [
+            22.5445892,
+            2.5373466
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "way/48546131",
+      "properties": {
+        "@id": "way/48546131",
+        "access": "forestry",
+        "highway": "track",
+        "source": "WRI;DIAF;Africover",
+        "start_date": "before 2000",
+        "@timestamp": "2015-05-02T10:04:04Z",
+        "@version": 3,
+        "@changeset": 30716749,
+        "@user": "cyrus_sinai",
+        "@uid": 2612541
+      },
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            22.6371147,
+            2.4558848
+          ],
+          [
+            22.6012383,
+            2.4539463
+          ],
+          [
+            22.5994416,
+            2.4538811
+          ],
+          [
+            22.5631286,
+            2.4522832
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "way/48546132",
+      "properties": {
+        "@id": "way/48546132",
+        "access": "forestry",
+        "highway": "track",
+        "source": "WRI;DIAF;Africover",
+        "start_date": "before 2000",
+        "@timestamp": "2015-05-05T20:49:59Z",
+        "@version": 3,
+        "@changeset": 30823051,
+        "@user": "Leo B",
+        "@uid": 2069339
+      },
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            22.6300766,
+            2.4728636
+          ],
+          [
+            22.5989933,
+            2.4718382
+          ],
+          [
+            22.5631287,
+            2.4694336
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "way/48546133",
+      "properties": {
+        "@id": "way/48546133",
+        "access": "forestry",
+        "highway": "track",
+        "source": "WRI;DIAF;Africover",
+        "start_date": "before 2000",
+        "@timestamp": "2015-05-05T20:49:59Z",
+        "@version": 3,
+        "@changeset": 30823051,
+        "@user": "Leo B",
+        "@uid": 2069339
+      },
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            22.6386597,
+            2.4917286
+          ],
+          [
+            22.5985909,
+            2.4895014
+          ],
+          [
+            22.5663902,
+            2.4876126
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "way/48546134",
+      "properties": {
+        "@id": "way/48546134",
+        "access": "forestry",
+        "highway": "track",
+        "source": "WRI;DIAF",
+        "start_date": "before 2000",
+        "@timestamp": "2015-05-05T20:49:59Z",
+        "@version": 4,
+        "@changeset": 30823051,
+        "@user": "Leo B",
+        "@uid": 2069339
+      },
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            22.6071867,
+            2.5173892
+          ],
+          [
+            22.6072126,
+            2.5081071
+          ],
+          [
+            22.5981728,
+            2.50785
+          ],
+          [
+            22.580209,
+            2.5071089
+          ],
+          [
+            22.5694801,
+            2.5064775
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "way/48546135",
+      "properties": {
+        "@id": "way/48546135",
+        "access": "forestry",
+        "highway": "track",
+        "source": "WRI;DIAF",
+        "start_date": "before 2000",
+        "@timestamp": "2015-05-05T20:49:58Z",
+        "@version": 4,
+        "@changeset": 30823051,
+        "@user": "Leo B",
+        "@uid": 2069339
+      },
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            22.5603821,
+            2.560155
+          ],
+          [
+            22.5967749,
+            2.5616984
+          ],
+          [
+            22.61316,
+            2.5630512
+          ],
+          [
+            22.6175453,
+            2.5634133
+          ],
+          [
+            22.6241368,
+            2.5634133
+          ],
+          [
+            22.6323082,
+            2.5634133
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "way/48546136",
+      "properties": {
+        "@id": "way/48546136",
+        "access": "forestry",
+        "highway": "track",
+        "source": "WRI;DIAF;Africover",
+        "start_date": "before 2000",
+        "@timestamp": "2015-05-05T20:49:58Z",
+        "@version": 5,
+        "@changeset": 30823051,
+        "@user": "Leo B",
+        "@uid": 2069339
+      },
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            22.5313697,
+            2.6873261
+          ],
+          [
+            22.5316756,
+            2.6685314
+          ],
+          [
+            22.5316501,
+            2.650935
+          ],
+          [
+            22.5324013,
+            2.6239477
+          ],
+          [
+            22.5325754,
+            2.6199961
+          ],
+          [
+            22.5331635,
+            2.6066514
+          ],
+          [
+            22.5336029,
+            2.5966818
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "way/48546137",
+      "properties": {
+        "@id": "way/48546137",
+        "access": "forestry",
+        "highway": "track",
+        "source": "WRI;DIAF;Africover",
+        "@timestamp": "2015-04-09T16:33:11Z",
+        "@version": 2,
+        "@changeset": 30097344,
+        "@user": "BKessler_GFW_import",
+        "@uid": 2729046
+      },
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            22.5316756,
+            2.6685314
+          ],
+          [
+            22.4994423,
+            2.6678461
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "way/48546138",
+      "properties": {
+        "@id": "way/48546138",
+        "access": "forestry",
+        "highway": "track",
+        "source": "WRI;DIAF;Africover",
+        "start_date": "before 2000",
+        "@timestamp": "2015-05-02T10:04:04Z",
+        "@version": 6,
+        "@changeset": 30716749,
+        "@user": "cyrus_sinai",
+        "@uid": 2612541
+      },
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            22.6004846,
+            2.4339214
+          ],
+          [
+            22.6003827,
+            2.4353787
+          ],
+          [
+            22.600087,
+            2.439749
+          ],
+          [
+            22.5994416,
+            2.4538811
+          ],
+          [
+            22.5993785,
+            2.4549329
+          ],
+          [
+            22.5989933,
+            2.4718382
+          ],
+          [
+            22.5985909,
+            2.4895014
+          ],
+          [
+            22.5981728,
+            2.50785
+          ],
+          [
+            22.5974616,
+            2.5390615
+          ],
+          [
+            22.5967749,
+            2.5616984
+          ],
+          [
+            22.5964316,
+            2.5805621
+          ],
+          [
+            22.5964316,
+            2.588965
+          ],
+          [
+            22.59626,
+            2.5982252
+          ],
+          [
+            22.5957602,
+            2.6299278
+          ],
+          [
+            22.5955733,
+            2.6417816
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "way/48546139",
+      "properties": {
+        "@id": "way/48546139",
+        "access": "forestry",
+        "highway": "track",
+        "source": "WRI;DIAF;Africover",
+        "start_date": "before 2000",
+        "@timestamp": "2015-05-02T10:04:04Z",
+        "@version": 3,
+        "@changeset": 30716749,
+        "@user": "cyrus_sinai",
+        "@uid": 2612541
+      },
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            22.6004846,
+            2.4339214
+          ],
+          [
+            22.6256134,
+            2.4140373
+          ],
+          [
+            22.6358781,
+            2.3957509
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "way/48546140",
+      "properties": {
+        "@id": "way/48546140",
+        "access": "forestry",
+        "highway": "track",
+        "source": "WRI;DIAF;Africover",
+        "start_date": "before 2000",
+        "@timestamp": "2015-05-02T10:04:04Z",
+        "@version": 3,
+        "@changeset": 30716749,
+        "@user": "cyrus_sinai",
+        "@uid": 2612541
+      },
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            22.600087,
+            2.439749
+          ],
+          [
+            22.583728,
+            2.4390774
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "way/48546144",
+      "properties": {
+        "@id": "way/48546144",
+        "access": "forestry",
+        "highway": "track",
+        "source": "WRI;DIAF;Africover",
+        "start_date": "before 2000",
+        "@timestamp": "2015-05-05T20:19:00Z",
+        "@version": 4,
+        "@changeset": 30822108,
+        "@user": "Leo B",
+        "@uid": 2069339
+      },
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            22.6518568,
+            2.6567646
+          ],
+          [
+            22.6513418,
+            2.6740837
+          ],
+          [
+            22.6513418,
+            2.6924313
+          ],
+          [
+            22.6506551,
+            2.7102643
+          ],
+          [
+            22.6509985,
+            2.7286113
+          ],
+          [
+            22.6509985,
+            2.7467867
+          ],
+          [
+            22.6516192,
+            2.7644662
+          ],
+          [
+            22.6517997,
+            2.7828982
+          ],
+          [
+            22.6515892,
+            2.7921907
+          ],
+          [
+            22.6429809,
+            2.8021945
+          ],
+          [
+            22.6429498,
+            2.8196961
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "way/48546145",
+      "properties": {
+        "@id": "way/48546145",
+        "access": "forestry",
+        "highway": "track",
+        "source": "WRI;DIAF;Africover",
+        "start_date": "before 2000",
+        "@timestamp": "2015-05-05T20:49:58Z",
+        "@version": 4,
+        "@changeset": 30823051,
+        "@user": "Leo B",
+        "@uid": 2069339
+      },
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            22.5964316,
+            2.588965
+          ],
+          [
+            22.5811908,
+            2.5977765
+          ],
+          [
+            22.5703384,
+            2.6038842
+          ],
+          [
+            22.5492973,
+            2.6150121
+          ],
+          [
+            22.5324013,
+            2.6239477
+          ],
+          [
+            22.5179817,
+            2.6325217
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "way/48546147",
+      "properties": {
+        "@id": "way/48546147",
+        "access": "forestry",
+        "highway": "track",
+        "source": "WRI;DIAF;Africover",
+        "start_date": "before 2000",
+        "@timestamp": "2015-05-05T20:15:52Z",
+        "@version": 3,
+        "@changeset": 30822006,
+        "@user": "Leo B",
+        "@uid": 2069339
+      },
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            22.5316756,
+            2.6685314
+          ],
+          [
+            22.5140335,
+            2.6870512
+          ],
+          [
+            22.5045921,
+            2.6956248
+          ],
+          [
+            22.5040771,
+            2.7055701
+          ],
+          [
+            22.5033905,
+            2.7420927
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "way/48546154",
+      "properties": {
+        "@id": "way/48546154",
+        "access": "forestry",
+        "highway": "track",
+        "source": "WRI;DIAF;Africover",
+        "start_date": "before 2000",
+        "@timestamp": "2015-05-05T20:49:57Z",
+        "@version": 4,
+        "@changeset": 30823051,
+        "@user": "Leo B",
+        "@uid": 2069339
+      },
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            22.607589,
+            2.6561857
+          ],
+          [
+            22.6328556,
+            2.6565725
+          ],
+          [
+            22.6518568,
+            2.6567646
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "way/48546163",
+      "properties": {
+        "@id": "way/48546163",
+        "access": "forestry",
+        "highway": "track",
+        "@timestamp": "2015-04-09T16:33:11Z",
+        "@version": 2,
+        "@changeset": 30097344,
+        "@user": "BKessler_GFW_import",
+        "@uid": 2729046
+      },
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            22.7246708,
+            2.6199923
+          ],
+          [
+            22.7209468,
+            2.6236086
+          ],
+          [
+            22.7062942,
+            2.6378376
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "way/48546164",
+      "properties": {
+        "@id": "way/48546164",
+        "access": "forestry",
+        "highway": "track",
+        "source": "WRI;DIAF;Africover",
+        "start_date": "before 2000",
+        "@timestamp": "2015-05-05T20:50:01Z",
+        "@version": 3,
+        "@changeset": 30823051,
+        "@user": "Leo B",
+        "@uid": 2069339
+      },
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            22.7062942,
+            2.6378376
+          ],
+          [
+            22.6816764,
+            2.6607874
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "way/48546170",
+      "properties": {
+        "@id": "way/48546170",
+        "access": "forestry",
+        "highway": "track",
+        "source": "WRI;DIAF;Africover",
+        "start_date": "before 2000",
+        "@timestamp": "2015-05-05T20:50:00Z",
+        "@version": 4,
+        "@changeset": 30823051,
+        "@user": "Leo B",
+        "@uid": 2069339
+      },
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            22.831607,
+            2.6345795
+          ],
+          [
+            22.8074028,
+            2.6354369
+          ],
+          [
+            22.7560781,
+            2.6362507
+          ],
+          [
+            22.7533295,
+            2.6362943
+          ],
+          [
+            22.7263546,
+            2.6374561
+          ],
+          [
+            22.7062942,
+            2.6378376
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "way/94501526",
+      "properties": {
+        "@id": "way/94501526",
+        "access": "forestry",
+        "highway": "track",
+        "source": "WRI;DIAF;Africover",
+        "start_date": "before 2000",
+        "@timestamp": "2015-05-02T10:04:05Z",
+        "@version": 4,
+        "@changeset": 30716749,
+        "@user": "cyrus_sinai",
+        "@uid": 2612541
+      },
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            22.6791686,
+            2.3663715
+          ],
+          [
+            22.6932767,
+            2.3515505
+          ],
+          [
+            22.698868,
+            2.3253611
+          ],
+          [
+            22.7083781,
+            2.2808145
+          ],
+          [
+            22.7074162,
+            2.2613999
+          ],
+          [
+            22.6892368,
+            2.2251651
+          ],
+          [
+            22.6786832,
+            2.2091561
+          ],
+          [
+            22.6783565,
+            2.1922674
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "way/95222474",
+      "properties": {
+        "@id": "way/95222474",
+        "access": "forestry",
+        "highway": "track",
+        "source": "WRI;DIAF",
+        "start_date": "before 2000",
+        "@timestamp": "2015-05-05T20:49:57Z",
+        "@version": 3,
+        "@changeset": 30823051,
+        "@user": "Leo B",
+        "@uid": 2069339
+      },
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            22.5731755,
+            2.6732639
+          ],
+          [
+            22.5813566,
+            2.6734819
+          ],
+          [
+            22.597632,
+            2.6739154
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "way/95222478",
+      "properties": {
+        "@id": "way/95222478",
+        "access": "forestry",
+        "highway": "track",
+        "source": "WRI;DIAF;Africover",
+        "start_date": "before 2000",
+        "@timestamp": "2015-05-05T20:49:57Z",
+        "@version": 3,
+        "@changeset": 30823051,
+        "@user": "Leo B",
+        "@uid": 2069339
+      },
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            22.6328556,
+            2.6565725
+          ],
+          [
+            22.6335016,
+            2.6429705
+          ],
+          [
+            22.6488277,
+            2.6429705
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "way/95222488",
+      "properties": {
+        "@id": "way/95222488",
+        "access": "forestry",
+        "highway": "track",
+        "source": "WRI;DIAF;Africover",
+        "start_date": "before 2000",
+        "@timestamp": "2015-05-05T20:49:57Z",
+        "@version": 3,
+        "@changeset": 30823051,
+        "@user": "Leo B",
+        "@uid": 2069339
+      },
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            22.5813566,
+            2.6734819
+          ],
+          [
+            22.5811531,
+            2.6909951
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "way/95222497",
+      "properties": {
+        "@id": "way/95222497",
+        "access": "forestry",
+        "highway": "track",
+        "source": "WRI;DIAF;Africover",
+        "start_date": "before 2000",
+        "@timestamp": "2015-05-05T20:49:57Z",
+        "@version": 3,
+        "@changeset": 30823051,
+        "@user": "Leo B",
+        "@uid": 2069339
+      },
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            22.6253665,
+            2.6733659
+          ],
+          [
+            22.6253608,
+            2.6919597
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "way/95222501",
+      "properties": {
+        "@id": "way/95222501",
+        "access": "forestry",
+        "highway": "track",
+        "source": "WRI;DIAF;Africover",
+        "start_date": "before 2000",
+        "@timestamp": "2015-05-05T20:49:57Z",
+        "@version": 3,
+        "@changeset": 30823051,
+        "@user": "Leo B",
+        "@uid": 2069339
+      },
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            22.6513418,
+            2.6740837
+          ],
+          [
+            22.6253665,
+            2.6733659
+          ],
+          [
+            22.6220885,
+            2.6732639
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "way/330959638",
+      "properties": {
+        "@id": "way/330959638",
+        "access": "forestry",
+        "highway": "track",
+        "source": "WRI;DIAF",
+        "start_date": "before 2012-08-22",
+        "@timestamp": "2015-03-02T19:09:38Z",
+        "@version": 1,
+        "@changeset": 29206160,
+        "@user": "edvac_import",
+        "@uid": 1852409
+      },
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            22.5316501,
+            2.650935
+          ],
+          [
+            22.4969135,
+            2.6493118
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "way/330959640",
+      "properties": {
+        "@id": "way/330959640",
+        "access": "forestry",
+        "highway": "track",
+        "source": "WRI;DIAF",
+        "start_date": "before 2000",
+        "@timestamp": "2015-05-05T20:49:59Z",
+        "@version": 2,
+        "@changeset": 30823051,
+        "@user": "Leo B",
+        "@uid": 2069339
+      },
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            22.580209,
+            2.5071089
+          ],
+          [
+            22.5798254,
+            2.5199443
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "way/330959642",
+      "properties": {
+        "@id": "way/330959642",
+        "access": "forestry",
+        "highway": "track",
+        "source": "WRI;DIAF",
+        "start_date": "before 2000",
+        "@timestamp": "2015-05-05T20:49:58Z",
+        "@version": 2,
+        "@changeset": 30823051,
+        "@user": "Leo B",
+        "@uid": 2069339
+      },
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            22.5520173,
+            2.537824
+          ],
+          [
+            22.551853,
+            2.5519022
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "way/330959643",
+      "properties": {
+        "@id": "way/330959643",
+        "access": "forestry",
+        "highway": "track",
+        "source": "WRI;DIAF",
+        "start_date": "before 2000",
+        "@timestamp": "2015-05-05T20:49:58Z",
+        "@version": 2,
+        "@changeset": 30823051,
+        "@user": "Leo B",
+        "@uid": 2069339
+      },
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            22.5788243,
+            2.5794434
+          ],
+          [
+            22.5790601,
+            2.5706129
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "way/330959644",
+      "properties": {
+        "@id": "way/330959644",
+        "access": "forestry",
+        "highway": "track",
+        "source": "WRI;DIAF",
+        "start_date": "before 2000",
+        "@timestamp": "2015-05-05T20:50:01Z",
+        "@version": 2,
+        "@changeset": 30823051,
+        "@user": "Leo B",
+        "@uid": 2069339
+      },
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            22.7263546,
+            2.6374561
+          ],
+          [
+            22.7266802,
+            2.6389025
+          ],
+          [
+            22.7270053,
+            2.6465722
+          ],
+          [
+            22.7268659,
+            2.6545242
+          ],
+          [
+            22.7269039,
+            2.6549074
+          ],
+          [
+            22.7257839,
+            2.6553162
+          ],
+          [
+            22.7252799,
+            2.6556695
+          ],
+          [
+            22.7247935,
+            2.6558108
+          ],
+          [
+            22.7246167,
+            2.6559875
+          ],
+          [
+            22.7216468,
+            2.6644069
+          ],
+          [
+            22.7214618,
+            2.6646888
+          ],
+          [
+            22.7202802,
+            2.6656881
+          ],
+          [
+            22.7192235,
+            2.666806
+          ],
+          [
+            22.7188734,
+            2.6670184
+          ],
+          [
+            22.717998,
+            2.6674056
+          ],
+          [
+            22.7175541,
+            2.6677616
+          ],
+          [
+            22.7157409,
+            2.6687921
+          ],
+          [
+            22.7149657,
+            2.6690607
+          ],
+          [
+            22.7145217,
+            2.6693605
+          ],
+          [
+            22.7142466,
+            2.6696602
+          ],
+          [
+            22.7139715,
+            2.6701911
+          ],
+          [
+            22.713632,
+            2.6707303
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "way/333633873",
+      "properties": {
+        "@id": "way/333633873",
+        "access": "forestry",
+        "highway": "track",
+        "source": "WRI;DIAF",
+        "start_date": "before 2000",
+        "@timestamp": "2015-05-02T10:04:04Z",
+        "@version": 2,
+        "@changeset": 30716749,
+        "@user": "cyrus_sinai",
+        "@uid": 2612541
+      },
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            22.6003827,
+            2.4353787
+          ],
+          [
+            22.6255325,
+            2.4356677
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "way/333633875",
+      "properties": {
+        "@id": "way/333633875",
+        "access": "forestry",
+        "highway": "track",
+        "source": "WRI;DIAF;Africover",
+        "start_date": "before 2000",
+        "@timestamp": "2015-05-02T10:04:05Z",
+        "@version": 3,
+        "@changeset": 30716749,
+        "@user": "cyrus_sinai",
+        "@uid": 2612541
+      },
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            22.6712346,
+            2.3663077
+          ],
+          [
+            22.6674866,
+            2.351714
+          ],
+          [
+            22.668454,
+            2.3229572
+          ],
+          [
+            22.698868,
+            2.3253611
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "way/333633876",
+      "properties": {
+        "@id": "way/333633876",
+        "access": "forestry",
+        "highway": "track",
+        "source": "WRI;DIAF;Africover",
+        "start_date": "before 2000",
+        "@timestamp": "2015-05-02T10:04:04Z",
+        "@version": 3,
+        "@changeset": 30716749,
+        "@user": "cyrus_sinai",
+        "@uid": 2612541
+      },
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            22.6770958,
+            2.3665707
+          ],
+          [
+            22.6545096,
+            2.3795541
+          ],
+          [
+            22.6411749,
+            2.3872881
+          ],
+          [
+            22.6351736,
+            2.395374
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "way/333633878",
+      "properties": {
+        "@id": "way/333633878",
+        "access": "forestry",
+        "highway": "track",
+        "source": "WRI;DIAF;Africover",
+        "start_date": "before 2000",
+        "@timestamp": "2015-05-02T10:04:05Z",
+        "@version": 3,
+        "@changeset": 30716749,
+        "@user": "cyrus_sinai",
+        "@uid": 2612541
+      },
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            22.7293354,
+            2.3943447
+          ],
+          [
+            22.7125194,
+            2.3928107
+          ],
+          [
+            22.7122628,
+            2.3961426
+          ],
+          [
+            22.7113222,
+            2.4002434
+          ],
+          [
+            22.7100396,
+            2.4016958
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "way/335084457",
+      "properties": {
+        "@id": "way/335084457",
+        "access": "forestry",
+        "highway": "track",
+        "source": "WRI;DIAF",
+        "start_date": "before 2000",
+        "@timestamp": "2015-05-02T10:04:05Z",
+        "@version": 2,
+        "@changeset": 30716749,
+        "@user": "cyrus_sinai",
+        "@uid": 2612541
+      },
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            22.7350913,
+            2.4019466
+          ],
+          [
+            22.719625,
+            2.4016687
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "way/335084462",
+      "properties": {
+        "@id": "way/335084462",
+        "access": "forestry",
+        "highway": "track",
+        "source": "WRI;DIAF",
+        "start_date": "before 2000",
+        "@timestamp": "2015-05-02T10:04:05Z",
+        "@version": 3,
+        "@changeset": 30716749,
+        "@user": "cyrus_sinai",
+        "@uid": 2612541
+      },
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            22.7062727,
+            2.3630401
+          ],
+          [
+            22.7293354,
+            2.3943447
+          ],
+          [
+            22.7350913,
+            2.4019466
+          ],
+          [
+            22.751049,
+            2.4210087
+          ],
+          [
+            22.7674855,
+            2.4389316
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "way/337629603",
+      "properties": {
+        "@id": "way/337629603",
+        "access": "forestry",
+        "highway": "track",
+        "source": "WRI;DIAF;Africover",
+        "start_date": "before 2000",
+        "@timestamp": "2015-05-05T20:49:59Z",
+        "@version": 2,
+        "@changeset": 30823051,
+        "@user": "Leo B",
+        "@uid": 2069339
+      },
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            22.6241368,
+            2.5634133
+          ],
+          [
+            22.6244662,
+            2.5353024
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "way/337629604",
+      "properties": {
+        "@id": "way/337629604",
+        "access": "forestry",
+        "highway": "track",
+        "source": "WRI;DIAF;Africover",
+        "start_date": "before 2000",
+        "@timestamp": "2015-05-05T20:49:59Z",
+        "@version": 2,
+        "@changeset": 30823051,
+        "@user": "Leo B",
+        "@uid": 2069339
+      },
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            22.61316,
+            2.5630512
+          ],
+          [
+            22.6135959,
+            2.5481
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "way/337629605",
+      "properties": {
+        "@id": "way/337629605",
+        "access": "forestry",
+        "highway": "track",
+        "source": "WRI;DIAF;Africover",
+        "start_date": "before 2000",
+        "@timestamp": "2015-05-05T20:50:01Z",
+        "@version": 2,
+        "@changeset": 30823051,
+        "@user": "Leo B",
+        "@uid": 2069339
+      },
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            22.7209468,
+            2.6236086
+          ],
+          [
+            22.7154383,
+            2.6202092
+          ],
+          [
+            22.7040372,
+            2.620063
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "way/343079364",
+      "properties": {
+        "@id": "way/343079364",
+        "access": "forestry",
+        "highway": "track",
+        "start_date": "before 2000",
+        "@timestamp": "2015-05-05T20:49:55Z",
+        "@version": 1,
+        "@changeset": 30823051,
+        "@user": "Leo B",
+        "@uid": 2069339
+      },
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            22.5325754,
+            2.6199961
+          ],
+          [
+            22.5159822,
+            2.6194691
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "way/343079376",
+      "properties": {
+        "@id": "way/343079376",
+        "access": "forestry",
+        "highway": "track",
+        "start_date": "2010",
+        "@timestamp": "2015-05-05T20:49:55Z",
+        "@version": 1,
+        "@changeset": 30823051,
+        "@user": "Leo B",
+        "@uid": 2069339
+      },
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            22.7092394,
+            2.5309456
+          ],
+          [
+            22.755073,
+            2.5309456
+          ],
+          [
+            22.7907786,
+            2.5307741
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "way/343079377",
+      "properties": {
+        "@id": "way/343079377",
+        "access": "forestry",
+        "highway": "track",
+        "start_date": "2010",
+        "@timestamp": "2015-05-05T20:49:56Z",
+        "@version": 1,
+        "@changeset": 30823051,
+        "@user": "Leo B",
+        "@uid": 2069339
+      },
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            22.7092394,
+            2.5492953
+          ],
+          [
+            22.7554163,
+            2.5489524
+          ],
+          [
+            22.7725825,
+            2.5487809
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "way/343079378",
+      "properties": {
+        "@id": "way/343079378",
+        "access": "forestry",
+        "highway": "track",
+        "start_date": "before 2010",
+        "@timestamp": "2015-05-05T20:49:56Z",
+        "@version": 1,
+        "@changeset": 30823051,
+        "@user": "Leo B",
+        "@uid": 2069339
+      },
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            22.7095828,
+            2.564215
+          ],
+          [
+            22.7133593,
+            2.5671303
+          ],
+          [
+            22.7549014,
+            2.5667874
+          ],
+          [
+            22.798674,
+            2.5666463
+          ],
+          [
+            22.8081164,
+            2.5666159
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "way/343079381",
+      "properties": {
+        "@id": "way/343079381",
+        "access": "forestry",
+        "highway": "track",
+        "start_date": "2010",
+        "@timestamp": "2015-05-05T20:49:56Z",
+        "@version": 1,
+        "@changeset": 30823051,
+        "@user": "Leo B",
+        "@uid": 2069339
+      },
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            22.7108702,
+            2.5849651
+          ],
+          [
+            22.7524981,
+            2.5849651
+          ],
+          [
+            22.7603087,
+            2.5854795
+          ],
+          [
+            22.7640852,
+            2.5849651
+          ],
+          [
+            22.7848563,
+            2.5854795
+          ],
+          [
+            22.8071722,
+            2.5849651
+          ]
+        ]
+      }
+    }
+  ]
+}

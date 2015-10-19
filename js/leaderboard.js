@@ -25,7 +25,7 @@
     },
 
     loadContributors: function(){
-      $.getJSON(app.osmHistoryBaseURL + 'user_list.json', function(data){
+      $.getJSON('{{site.baseurl}}/data/user_list.json', function(data){
         // sort by number of edits and filter out blacklisted users
         data = data.filter(function(editor){
           return app.blacklist.indexOf(editor.user) === -1;
@@ -84,8 +84,8 @@
           userNameLink = $('<a href="#">')
                            .text(editor.user)
                            .on('click', app.loadContributorGeoJSON);
-      
-      row.append( $('<span class="small-1 columns text-center">').text(rank) );    
+
+      row.append( $('<span class="small-1 columns text-center">').text(rank) );
       row.append( $('<span class="small-5 columns">').html(userNameLink) );
       row.append( $('<span class="small-2 columns text-right">').text(editor.nodes + editor.ways) );
       row.append( $('<span class="small-2 columns text-right">').text(editor.nodes) );
@@ -112,7 +112,7 @@
 
       $('html, body').animate({ scrollTop: $('#map-container').offset().top }, app.ANIMATION.scroll);
 
-      $.getJSON(app.osmHistoryBaseURL + 'user_list_with_geometry/' + this.text + '.json', function(data){
+      $.getJSON('{{site.baseurl}}/data/sample_user_edits.geojson', function(data){
 
         var geojson = L.mapbox.featureLayer(data).setStyle({
           className: 'user-edits'
