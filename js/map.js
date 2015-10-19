@@ -81,17 +81,17 @@
     loadProjectGrid: function(){
       // load grid geojsons for all projects in pageConfig.tm_projects
       // and fire 'projectGrids-loaded' event when all have resolved
-      var countryGridPromises = $.map(pageConfig.tm_projects, function(country, country_id){
+      var countryGridPromises = $.map(pageConfig.tm_projects, function(country, idx){
         var countryGridPromise = $.Deferred();
 
-        // app.projectGrids[projectKey] = L.mapbox.featureLayer(app.tmBaseUrl + country_id + '/tasks.json')
-        app.projectGrids[country_id] = L.mapbox.featureLayer('{{site.baseurl}}/data/' + country_id + '_grid.geojson')
+        // app.projectGrids[projectKey] = L.mapbox.featureLayer(app.tmBaseUrl + country.id + '/tasks.json')
+        app.projectGrids[country.id] = L.mapbox.featureLayer('{{site.baseurl}}/data/' + country.id + '_grid.geojson')
           .on('ready', function(){
             this.setFilter(function(feature){
               return feature.properties['state'] !== -1;
             })
             .eachLayer(function(layer){
-              app.onEachProjectGridCell(layer, country_id);
+              app.onEachProjectGridCell(layer, country.id);
             })
             .addTo(app.map);
 

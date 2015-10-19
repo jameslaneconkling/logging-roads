@@ -1,29 +1,29 @@
-cmr:
+- id: cmr
   name: Cameroon
   map_glyph: map-cm
-  # tm_project_id:
+  active: true
 
-car:
-    name: Central African Republic
-    map_glyph: map-cf
-    # tm_project_id: car
+- id: car
+  name: Central African Republic
+  map_glyph: map-cf
+  active: true
 
-drc:
-    name: Democratic Republic of the Congo
-    map_glyph: map-cd  # maps icon to mapglyphs font.  see /fonts/mapglyphs/mapglyphs.css
-    # tm_project_id: drc
+- id: drc
+  name: Democratic Republic of the Congo
+  map_glyph: map-cd  # maps icon to mapglyphs font.  see /fonts/mapglyphs/mapglyphs.css
+  active: true
 
-gnq:
-    name: Equatorial Guinea
-    map_glyph: map-gq
-    # tm_project_id:
+- id: gnq
+  name: Equatorial Guinea
+  map_glyph: map-gq
+  active: true
 
-gab:
-    name: Gabon
-    map_glyph: map-ga
-    # tm_project_id:
+- id: gab
+  name: Gabon
+  map_glyph: map-ga
+  active: false
 
-cog:
-    name: Republic of Congo
-    map_glyph: map-cg
-    # tm_project_id: cog
+- id: cog
+  name: Republic of Congo
+  map_glyph: map-cg
+  active: true
