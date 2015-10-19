@@ -11,11 +11,11 @@
     </div> -->
 
     <div id="map-legend" class="v-align">
-      <div class="satellite-controller keyline-bottom pbs mbm">
+
+      <div class="satellite-controller pbs mbm">
         <h4 class="">Base Layer</h4>
-        <p class="show-for-large-up">view roads against satellite imagery to track change over time, or select <strong>terrain</strong> to view roads against a blank background</p>
+        <p class="show-for-large-up">view roads against <strong>satellite</strong> imagery to track change over time, or blank <strong>terrain</strong></p>
         <ul class="clearfix">
-          <li class="large-12 columns active" data-id="terrain"><a href="#">terrain</a></li>
           <li class="large-12 columns" style="border-right: 1;"><a href="#" class="disabled">satellite</a></li>
           <li class="large-3 medium-6 columns" data-id="2000"><a href="#">2000</a></li>
           <li class="large-3 medium-6 columns" data-id="2001"><a href="#">2001</a></li>
@@ -31,16 +31,43 @@
           <li class="large-3 medium-6 columns" data-id="2011"><a href="#">2011</a></li>
           <li class="large-3 medium-6 columns" data-id="2012"><a href="#">2012</a></li>
           <li class="large-3 medium-6 columns" data-id="2013"><a href="#">2013</a></li>
+          <li class="large-12 columns active" data-id="terrain"><a href="#">terrain</a></li>
+        </ul>
+      </div>
+
+      <!--  <div class="cell-state">
+        <h4>Tasking Manager Grids</h4>
+        <p>edits are microtasked to coordinate collaboration</p>
+        <ul class="mbs">
+          <li><span class='empty-cell'></span>Task Grid Cell</li>
+        </ul>
+      </div> -->
+
+      <h4>Grid Status</h4>
+      <div class="task-grid clearfix pbs">
+        <ul>
+          <li class="medium-6 active" data-id="show"><a href="#">Show Grid</a></li>
+          <li class="medium-6" data-id="hide"><a href="#">Hide Grid</a></li>
+        </ul>
+      </div>
+
+      <div class="cell-state">
+        <ul>
+          <li><span class='ready'></span>READY</li>
+          <!-- <li><span class='invalidated'></span>INVALIDATED</li> -->
+          <li><span class='done'></span>DONE</li>
+          <li><span class='validated'></span>VALIDATED</li>
+          <li><span class='locked'></span>LOCKED</li>
         </ul>
       </div>
 
       <div class="roads-legend mbm">
         <h4 class="">Roads</h4>
-        <p class="show-for-large-up">dated to first year visible by satellite imagery</p>
+        <p class="show-for-large-up">year visible by satellite imagery</p>
         <ul class="clearfix medium-block-grid-6">
           <li class="">
             <div class="medium-12 columns" style="background-color: #f8ffcc;"></div>
-            <span>before 2000</span>
+            <span>2000</span>
           </li>
           <li class="">
             <div class="medium-12 columns" style="background-color: #ffd99e;"></div>
@@ -57,47 +84,24 @@
           </li>
           <li class="">
             <div class="medium-12 columns" style="background-color: #777; border-left: 1px solid #303030;"></div>
-            <span>no year</span>
+            <span>none</span>
           </li>
         </ul>
       </div>
-<!--       <div class="cell-state">
-        <h4>Tasking Manager Grids</h4>
-        <p>edits are microtasked to coordinate collaboration</p>
-        <ul class="mbs">
-          <li><span class='empty-cell'></span>Task Grid Cell</li>
-        </ul>
-      </div> -->
-
-<!--       <h4>Cell State</h4>
-      <div class="task-grid clearfix">
-        <ul>
-          <li class="medium-6 active" data-id="show"><a href="#">Show Grid</a></li>
-          <li class="medium-6" data-id="hide"><a href="#">Hide Grid</a></li>
-        </ul>
-      </div>
-
-      <div class="cell-state">
-        <ul>
-          <li><span class='ready'></span>READY</li>
-          <li><span class='invalidated'></span>INVALIDATED</li>
-          <li><span class='done'></span>DONE</li>
-          <li><span class='validated'></span>VALIDATED</li>
-          <li><span class='locked'></span>LOCKED</li>
-        </ul>
-      </div> -->
 
       <div class="source">
         <div><strong>Map: </strong>&copy; <a href='https://www.mapbox.com/about/maps/' target='_blank'>Mapbox</a> &copy; <a href="https://www.openstreetmap.org/copyright">OpenStreetMap</a></div>
-        <div><strong>Logging Roads: </strong><a href="http://www.wri.org/our-work/project/congo-basin-forest-atlases">WRI Forest Atlas</a></div>
-        <div><strong>Satellite Imagery: </strong><a href="http://earthenginepartners.appspot.com/science-2013-global-forest">University of Maryland Global Forest Change</a></div>
+        <div>
+          <strong>Roads: </strong><a href="http://www.wri.org/our-work/project/congo-basin-forest-atlases">WRI Forest Atlas</a>
+          <strong>Imagery: </strong><a href="http://earthenginepartners.appspot.com/science-2013-global-forest">UMD</a>
+        </div>
       </div>
 
-      <div class="row pas">
+<!--       <div class="row pas">
         <div class="small-12 columns text-center">
           <a href="http://loggingroads.org/roads.geojson" download="logging_roads.geojson">Download Data</a>
         </div>
-      </div>
+      </div> -->
     </div>
 
   </div>
