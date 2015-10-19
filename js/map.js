@@ -148,42 +148,42 @@
       });
 
       layer.on('mouseover', function(e){
-        // this.bringToFront();
+        this.bringToFront();
         // app.addTooltipContent({__teaser__ : feature});
         this.setStyle({'opacity': 1});
-        // if(! app.tooltipIsOpen ){
-        //   app.addTooltipContent({__teaser__ : feature});
-        //   tooltip.addClass('hover');
-        // }
+        if(! app.tooltipIsOpen ){
+          // app.addTooltipContent({__teaser__ : feature});
+          tooltip.addClass('hover');
+        }
 
       });
 
       layer.on('mouseout', function(e){
-        // if(! app.tooltipIsOpen ){
-        //   tooltip.removeClass('clicked');
-        //   app.removeTooltipContent();
-        // }
-        // if(this.feature.id !== app.tooltipIsOpen && this.feature.properties.locked !== 'locked'){
-        //   this.bringToBack();
-        // }
-        // tooltip.removeClass('hover');
+        if(! app.tooltipIsOpen ){
+          tooltip.removeClass('clicked');
+          app.removeTooltipContent();
+        }
+        if(this.feature.id !== app.tooltipIsOpen && this.feature.properties.locked !== 'locked'){
+          this.bringToBack();
+        }
+        tooltip.removeClass('hover');
         this.bringToBack();
         app.removeTooltipContent();
         this.setStyle({'opacity': 0});
       });
 
       layer.on('click', function(e){
-        // tooltip.addClass('clicked');
-        // app.setGridStrokeColor(gridStrokeColor);
-        // layer.setStyle({ color: gridStrokePrimaryColor });
-        // this.bringToFront();
+        tooltip.addClass('clicked');
+        app.setGridStrokeColor(gridStrokeColor);
+        layer.setStyle({ color: gridStrokePrimaryColor });
+        this.bringToFront();
         // app.addTooltipContent({__full__ : feature});
-        // app.tooltipIsOpen = layer.feature['id'];
+        app.tooltipIsOpen = layer.feature['id'];
 
-        // app.map.fitBounds(this.getBounds(), {
-        //   animate: true,
-        //   padding: [40,40]
-        // })
+        app.map.fitBounds(this.getBounds(), {
+          animate: true,
+          padding: [40,40]
+        })
       });
     },
 
@@ -227,7 +227,7 @@
       app.tooltipIsOpen = false;
       $('#map-sidebar #map-tooltip').removeClass('clicked');
       app.resetMapView();
-      // app.setGridStrokeColor('#999');
+      app.setGridStrokeColor('#999');
     },
 
     addTooltipContent: function(content){
@@ -294,13 +294,13 @@
       }
     },
 
-    // setGridStrokeColor: function(color){
-    //   $.each(app.projectGrids, function(key, idx){
-    //     app.projectGrids[key].eachLayer(function(layer){
-    //       layer.setStyle({ color: color });
-    //     });
-    //   });
-    // },
+    setGridStrokeColor: function(color){
+      $.each(app.projectGrids, function(key, idx){
+        app.projectGrids[key].eachLayer(function(layer){
+          layer.setStyle({ color: color });
+        });
+      });
+    },
 
     resetMapView: function(){
       app.map.setView(pageConfig.center, pageConfig.zoom,{animate: true});
