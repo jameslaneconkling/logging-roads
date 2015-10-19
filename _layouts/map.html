@@ -26,7 +26,7 @@
       baseLayer: '{{page.baseLayer}}',
       center: [{{page.center.lat}}, {{page.center.lon}}],
       zoom: {{page.center.zoom}},
-      tm_projects: {{ page.tm_projects | jsonify }}
+      tm_projects: {{ site.data.countries | jsonify }}
     }
   </script>
   <script src="{{site.baseurl}}/js/vendor/jquery.js"></script>

@@ -28,8 +28,8 @@
       // });
 
       // load project area(s)
-      // this.loadProjectGrid();
-      // this.map.on('taskGrids-loaded', this.setVectorStrokeWidth);
+      this.loadProjectGrid();
+      this.map.on('taskGrids-loaded', this.setVectorStrokeWidth);
       // this.map.on('taskGrids-loaded', this.fitMapBoundsToVector);
 
     },
@@ -81,18 +81,17 @@
     loadProjectGrid: function(){
       // load grid geojsons for all projects in pageConfig.tm_projects
       // and fire 'projectGrids-loaded' event when all have resolved
-      var countryGridPromises = $.map(pageConfig.tm_projects, function(projectObj, projectKey){
-        var countryGridPromise = $.Deferred(),
-            project_id = projectObj['project_id'];
+      var countryGridPromises = $.map(pageConfig.tm_projects, function(country, country_id){
+        var countryGridPromise = $.Deferred();
 
-        // app.projectGrids[projectKey] = L.mapbox.featureLayer('{{site.baseurl}}/data/osm_tm_tasks_' + project_id + '.geojson')
-        app.projectGrids[projectKey] = L.mapbox.featureLayer(app.tmBaseUrl + project_id + '/tasks.json')
+        // app.projectGrids[projectKey] = L.mapbox.featureLayer(app.tmBaseUrl + country_id + '/tasks.json')
+        app.projectGrids[country_id] = L.mapbox.featureLayer('{{site.baseurl}}/data/' + country_id + '_grid.geojson')
           .on('ready', function(){
             this.setFilter(function(feature){
               return feature.properties['state'] !== -1;
             })
             .eachLayer(function(layer){
-              app.onEachProjectGridCell(layer, project_id);
+              app.onEachProjectGridCell(layer, country_id);
             })
             .addTo(app.map);
 
@@ -143,8 +142,8 @@
           feature.properties['state'] = 'removed'; break;
       }
 
-      layer.setStyle({ 
-        className: ['project-grid', feature.properties['state'], feature.properties['locked']].join(' '), 
+      layer.setStyle({
+        className: ['project-grid', feature.properties['state'], feature.properties['locked']].join(' '),
         color: gridStrokeColor
       });
 
@@ -192,7 +191,7 @@
       e.preventDefault();
       e.stopPropagation();
       var listItem = $(this).parent('li');
-      
+
       if(listItem.hasClass('active')) return false;
       if(listItem.data('id') === 'show'){
         listItem.addClass('active').siblings('li.active').removeClass('active');
