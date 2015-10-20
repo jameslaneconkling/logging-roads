@@ -1,5 +1,7 @@
 # Logging Roads
 
-To run locally, make sure you have [bundler](http://bundler.io/) installed and run the following command from within the project directory:
+This is a fork of the [OSM logging roads](loggingroads.org) project to demonstrate possible points of integration between the HOT Tasking Manager and the public microsite.  The current *(as of October 2015)* public version swaps out the Tasking Manager in favor of [To Fix](https://github.com/crowdcover/to-fix).
+
+### Development
 
 `bundle exec jekyll serve -w --baseurl ''`
