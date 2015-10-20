@@ -19,13 +19,13 @@
       $('.twitter-share').on('click', this.twitterShareDialogue);
       $('#map-tooltip').on('click', 'a.close', this.closeTooltip);
 
-      // app.tooltipTemplate = Handlebars.compile($('#tooltip-template').html());
-      // Handlebars.registerHelper('isLocked', function(properties, options) {
-      //   if(properties.locked === 'locked') {
-      //     return options.fn(this);
-      //   }
-      //   return options.inverse(this);
-      // });
+      app.tooltipTemplate = Handlebars.compile($('#tooltip-template').html());
+      Handlebars.registerHelper('isLocked', function(properties, options) {
+        if(properties.locked === 'locked') {
+          return options.fn(this);
+        }
+        return options.inverse(this);
+      });
 
       // load project area(s)
       this.loadProjectGrid();
@@ -152,7 +152,7 @@
         // app.addTooltipContent({__teaser__ : feature});
         this.setStyle({'opacity': 1});
         if(! app.tooltipIsOpen ){
-          // app.addTooltipContent({__teaser__ : feature});
+          app.addTooltipContent({__teaser__ : feature});
           tooltip.addClass('hover');
         }
 
@@ -167,8 +167,8 @@
           this.bringToBack();
         }
         tooltip.removeClass('hover');
-        this.bringToBack();
-        app.removeTooltipContent();
+        // this.bringToBack();
+        // app.removeTooltipContent();
         this.setStyle({'opacity': 0});
       });
 
@@ -177,12 +177,12 @@
         app.setGridStrokeColor(gridStrokeColor);
         layer.setStyle({ color: gridStrokePrimaryColor });
         this.bringToFront();
-        // app.addTooltipContent({__full__ : feature});
+        app.addTooltipContent({__full__ : feature});
         app.tooltipIsOpen = layer.feature['id'];
 
         app.map.fitBounds(this.getBounds(), {
           animate: true,
-          padding: [40,40]
+          padding: [100,100]
         })
       });
     },
@@ -308,16 +308,6 @@
 
     setVectorStrokeWidth: function(){
       var zoomLevel = app.map.getZoom();
-      // $('.leaflet-objects-pane path.project-grid').css('stroke-width', function(){
-      //   if(zoomLevel <= 6){
-      //     return 0.5;
-      //   }else if(zoomLevel <= 8){
-      //     return 1.4;
-      //   }else{
-      //     return 2;
-      //   }
-      // });
-
       $('.leaflet-objects-pane path.project-grid').css('stroke-width', function(){
         if(zoomLevel <= 6){
           return 0.8;

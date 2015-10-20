@@ -5,7 +5,7 @@
 
   ## Example:
   {{#__teaser__}}
-    <h4>Task Number: <strong class="task-id">{{id}}</strong></h4>
+    <h4 class="mbs">Task Number: <strong class="task-id">{{id}}</strong></h4>
     {{#isLocked properties}}
       <p class="locked"><small>Task is Locked</small></p>
     {{else}}
@@ -25,4 +25,23 @@
 
 {% endcomment %}
 
-{% raw %}{% endraw %}
+{% raw %}
+  {{#__teaser__}}
+    <h4 class="mbs">Task Number: <strong class="task-id">{{id}}</strong></h4>
+    {{#isLocked properties}}
+      <p class="locked"><small>Task is Locked</small></p>
+    {{else}}
+      <p><small>Click to Open Task</small></p>
+    {{/isLocked}}
+  {{/__teaser__}}
+  {{#__full__}}
+    <h4>Task Number: <strong class="task-id">{{id}}</strong></h4>
+    <ul>
+      <li>Task Status <strong> {{properties.state}} </strong></li>
+      <li>Task State  <strong> {{properties.locked}} </strong></li>
+    </ul>
+
+    <a class="medium-10 columns text-center start-mapping {{#isLocked properties}}disabled striped{{/isLocked}}" href="{{site.baseurl}}/404" target="_blank">Start Mapping</a>
+    <a class="medium-2 columns text-center close" href="#">X</a>
+  {{/__full__}}
+{% endraw %}
